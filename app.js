@@ -9,6 +9,7 @@ function getTranslationalUrl(text){
 }
 function errorHandler(error){
     console.log("error occured", error)
+    alert("Something went wrong! Try again after sometime.")
 }
 
 buttonObj.addEventListener("click", function clickHandler(){
